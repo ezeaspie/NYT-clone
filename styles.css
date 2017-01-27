@@ -1,0 +1,257 @@
+
+body {
+  margin: 0;
+}
+
+.topnav {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:40px;
+  background: #FFFFFF;
+  padding: 10px;
+  border-bottom: solid 1px #d3d3d3;
+  z-index:9999;
+}
+
+img {
+  width: 20px;
+}
+
+.navigation {
+  display: inline-block;
+  float:left;
+}
+
+.navigation button:not(:first-child) {
+  background: #FFFFFF;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+.section {
+  background: #FFFFFF;
+  border: solid 2px #d3d3d3;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.navigation p {
+  display: inline-block;
+  padding: 0px 8px;
+  margin: 0;
+  position: relative;
+  bottom: 4px;
+  font-size: 100%;
+  font-family: Arial;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.NY {
+  width: 200px;
+  display: inline-block;
+  margin-left:20%;
+  position: relative;
+  top: 5px;
+}
+
+.navigation2 {
+  display: inline-block;
+  float:right;
+}
+
+.navigation2 button {
+  background: #5281e0;
+  border: none;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding: 10px;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 4px;
+}
+
+.navigation2 img {
+  width: 25px;
+  position: relative;
+  top: 4px;
+  left: 10px;
+}
+#container{
+  margin-left:2%;
+  margin-right:2%;
+}
+#content{
+  margin:0px 70px;
+}
+/*Topbar*/
+#topbar{
+  padding-top:50px;
+  height:105px;
+  border-bottom:solid 1px #d3d3d3;
+}
+#topbar ul{
+  list-style:none;
+}
+#topbar li{
+  float:left;
+  border-right:solid 1px #d3d3d3;
+  padding:0px 10px;
+  width:18%;
+}
+#topbar p{
+  display:inline-block;
+  width:60%;
+  font-size:80%;
+  font-family:Arial;
+  position:relative;
+  left:15px;
+}
+#topbar img{
+  width:70px;
+  height:70px;
+  position:relative;
+  top:5px;
+}
+/*End of topbar styling*/
+#title{
+  margin-top:2px;
+  border-top:solid 1px;
+}
+#title p{
+  font-family:Arial;
+}
+h1{
+  font-family:Merriweather;
+  border-bottom:solid 1px #d3d3d3;
+  padding-bottom:5px;
+}
+#titleicon{
+  display:inline-block;
+  width:100%;
+  margin-bottom:15px;
+}
+#titleicon p{
+  font-variant:small-caps;
+  font-family:Times;
+  font-weight:bold;
+  display:inline-block;
+  margin:0;
+}
+#titleicon ul{
+  display:inherit;
+  margin:0;
+  float:right;
+}
+#titleicon li{
+  list-style-type:none;
+  display:inline-block;
+  width:30px;
+  padding-left:10px;
+}
+#titleicon img{
+  width:30px;
+  height:30px;
+}
+.main{
+  width:100%;
+}
+figcaption{
+  width:60%;
+  font-family:Arial;
+  font-size:80%;
+  opacity:.7;
+  padding-top:10px;
+}
+/*Main text*/
+#text1 p ,#text2 p ,#text3 p{
+  width:60%;
+  font-family:Arial;
+  font-size:110%;
+  opacity:.95;
+  padding-left:30px;
+}
+h2{
+  padding-left:30px;
+  font-family:Merriweather;
+  font-size:120%;
+}
+/*Theory of Inflation Section*/
+#theory,#inflation{
+  border-bottom:solid 1px #d3d3d3;
+}
+#theory img{
+  width:100%;
+}
+#theory h2{
+  padding:0;
+  padding-top:20px;
+  border-top:solid 1px #d3d3d3;
+}
+#theory p{
+  font-family:Arial;
+  opacity:.75;
+}
+#theory table{
+  position:absolute;
+  width:90%;
+  top:2650px;
+  left:100px;
+}
+td{
+  text-align:center;
+  padding-bottom:150px;
+  padding-left:10px;
+}
+tr td:first-child{
+  padding-left:0;
+}
+#subscribe{
+  margin-left:30px;
+  margin-right:20px;
+  width:30%;
+  display:inline-block;
+  float:left;
+  border-top:solid 1px #d3d3d3;
+  border-bottom:solid 1px #d3d3d3;
+  padding-bottom:30px;
+  margin-bottom:30px;
+}
+#subscribe p,#subscribe h2{
+  padding:0;
+  width:100%;
+}
+#subscribe p{
+  font-family:arial;
+  opacity:.7;
+  font-size:90%;
+}
+#subscribe input{
+  border:solid 1px #d3d3d3;
+  border-radius:5px;
+  padding:10px;
+  width:70%;
+}
+#subscribe button{
+  border: solid 1px #d3d3d3;
+  border-radius:5px;
+  padding:2%;
+  font-weight:bold;
+  font-family:Arial;
+}
+#subscribe input[type="checkbox"]{
+  width:10%;
+  margin-top:15px;
+  font-family:Arial;
+}
+#text3 img{
+  width:70%;
+}
+#text3{
+  border-bottom:solid 1px #d3d3d3;
+}
